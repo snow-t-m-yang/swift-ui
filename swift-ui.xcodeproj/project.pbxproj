@@ -15,6 +15,8 @@
 		64A864732C67671000EFB0CD /* swift_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A864722C67671000EFB0CD /* swift_uiTests.swift */; };
 		64A8647D2C67671000EFB0CD /* swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8647C2C67671000EFB0CD /* swift_uiUITests.swift */; };
 		64A8647F2C67671000EFB0CD /* swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8647E2C67671000EFB0CD /* swift_uiUITestsLaunchTests.swift */; };
+		64A8648C2C6779BB00EFB0CD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8648B2C6779BB00EFB0CD /* CircleImage.swift */; };
+		64A8648E2C677C6600EFB0CD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8648D2C677C6600EFB0CD /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		64A864782C67671000EFB0CD /* swift-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A8647C2C67671000EFB0CD /* swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_uiUITests.swift; sourceTree = "<group>"; };
 		64A8647E2C67671000EFB0CD /* swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64A8648B2C6779BB00EFB0CD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		64A8648D2C677C6600EFB0CD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				64A8645E2C67670F00EFB0CD /* swift_uiApp.swift */,
+				64A8648B2C6779BB00EFB0CD /* CircleImage.swift */,
+				64A8648D2C677C6600EFB0CD /* MapView.swift */,
 				64A864602C67670F00EFB0CD /* ContentView.swift */,
 				64A864622C67670F00EFB0CD /* Item.swift */,
 				64A864642C67671000EFB0CD /* Assets.xcassets */,
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A864612C67670F00EFB0CD /* ContentView.swift in Sources */,
+				64A8648C2C6779BB00EFB0CD /* CircleImage.swift in Sources */,
+				64A8648E2C677C6600EFB0CD /* MapView.swift in Sources */,
 				64A864632C67670F00EFB0CD /* Item.swift in Sources */,
 				64A8645F2C67670F00EFB0CD /* swift_uiApp.swift in Sources */,
 			);
