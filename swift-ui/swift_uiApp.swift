@@ -22,10 +22,13 @@ struct swift_uiApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+    @State private var modelData = ModelData()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(modelData)
         }
         .modelContainer(sharedModelContainer)
     }

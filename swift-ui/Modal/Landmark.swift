@@ -15,8 +15,8 @@ struct Landmark: Hashable, Codable, Identifiable {
     var park: String
     var state: String
     var description: String
-
     var imageName: String
+    var isFavorite: Bool
 
     // I don't like this approach, I likes to keep the UI logic to the View
     //	var image: Image {
