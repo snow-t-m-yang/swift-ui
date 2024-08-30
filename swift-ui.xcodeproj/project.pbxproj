@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64067BA92C81D90200751314 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64067BA82C81D90200751314 /* CategoryRow.swift */; };
+		64067BAB2C81DD7800751314 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64067BAA2C81DD7800751314 /* CategoryItem.swift */; };
 		642F8D522C774A3C0085C331 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642F8D512C774A3C0085C331 /* BadgeSymbol.swift */; };
 		642F8D542C774B8E0085C331 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642F8D532C774B8E0085C331 /* RotatedBadgeSymbol.swift */; };
 		642F8D562C774C3E0085C331 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642F8D552C774C3E0085C331 /* Badge.swift */; };
@@ -67,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64067BA82C81D90200751314 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		64067BAA2C81DD7800751314 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		642F8D512C774A3C0085C331 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		642F8D532C774B8E0085C331 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		642F8D552C774C3E0085C331 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -222,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				649835572C78B66700EB7893 /* CategoryHome.swift */,
+				64067BA82C81D90200751314 /* CategoryRow.swift */,
+				64067BAA2C81DD7800751314 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -444,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64067BA92C81D90200751314 /* CategoryRow.swift in Sources */,
 				64A864612C67670F00EFB0CD /* ContentView.swift in Sources */,
 				642F8D562C774C3E0085C331 /* Badge.swift in Sources */,
 				64A8648C2C6779BB00EFB0CD /* CircleImage.swift in Sources */,
@@ -452,6 +459,7 @@
 				6453697D2C7602FF000EF76E /* HexagonParameters.swift in Sources */,
 				642F8D5B2C774FA00085C331 /* Hike.swift in Sources */,
 				6498355F2C78B8F400EB7893 /* HikeDetail.swift in Sources */,
+				64067BAB2C81DD7800751314 /* CategoryItem.swift in Sources */,
 				642F8D542C774B8E0085C331 /* RotatedBadgeSymbol.swift in Sources */,
 				642F8D522C774A3C0085C331 /* BadgeSymbol.swift in Sources */,
 				64A8645F2C67670F00EFB0CD /* swift_uiApp.swift in Sources */,

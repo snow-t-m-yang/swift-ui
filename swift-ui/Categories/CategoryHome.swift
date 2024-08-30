@@ -12,11 +12,22 @@ struct CategoryHome: View {
     
     var body: some View {
         NavigationSplitView {
+            
+            Image(modelData.features[0].imageName)
+                .resizable()
+                .scaledToFill()
+                .frame(height: 200)
+                .clipped()
+                .listRowInsets(EdgeInsets())
            
             List {
-                ForEach(modelData.categories.keys.sorted(), id: \.self) {
-                    key in Text(key)
+                ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
+                    CategoryRow(
+                        categoryName: key,
+                        Landmarks: modelData.categories[key]!
+                    )
                 }
+                .listRowInsets(EdgeInsets())
             }
             .navigationTitle("Featured")
         } detail: {

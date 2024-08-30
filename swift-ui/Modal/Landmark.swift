@@ -17,6 +17,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var description: String
     var imageName: String
     var isFavorite: Bool
+    var isFeatured: Bool
 
     // I don't like this approach, I likes to keep the UI logic to the View
     //	var image: Image {
