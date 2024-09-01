@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		64067BA92C81D90200751314 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64067BA82C81D90200751314 /* CategoryRow.swift */; };
 		64067BAB2C81DD7800751314 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64067BAA2C81DD7800751314 /* CategoryItem.swift */; };
+		64067BAE2C847C7A00751314 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64067BAD2C847C7A00751314 /* Profile.swift */; };
+		64067BB02C847D5800751314 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64067BAF2C847D5800751314 /* ProfileHost.swift */; };
+		64067BB22C847E8900751314 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64067BB12C847E8900751314 /* ProfileSummary.swift */; };
 		642F8D522C774A3C0085C331 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642F8D512C774A3C0085C331 /* BadgeSymbol.swift */; };
 		642F8D542C774B8E0085C331 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642F8D532C774B8E0085C331 /* RotatedBadgeSymbol.swift */; };
 		642F8D562C774C3E0085C331 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642F8D552C774C3E0085C331 /* Badge.swift */; };
@@ -71,6 +74,9 @@
 /* Begin PBXFileReference section */
 		64067BA82C81D90200751314 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		64067BAA2C81DD7800751314 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		64067BAD2C847C7A00751314 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		64067BAF2C847D5800751314 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		64067BB12C847E8900751314 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		642F8D512C774A3C0085C331 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		642F8D532C774B8E0085C331 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		642F8D552C774C3E0085C331 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -142,6 +148,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64067BAC2C847C6400751314 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				64067BAD2C847C7A00751314 /* Profile.swift */,
+				64067BAF2C847D5800751314 /* ProfileHost.swift */,
+				64067BB12C847E8900751314 /* ProfileSummary.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
 		642F8D572C774D7F0085C331 /* Badges */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +220,9 @@
 		6465DF7A2C68916600AE613E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				649835562C78B65300EB7893 /* Categories */,
+				642F8D572C774D7F0085C331 /* Badges */,
+				64067BAC2C847C6400751314 /* Profiles */,
 				6498355D2C78B8F400EB7893 /* Hikes */,
 				64A8648D2C677C6600EFB0CD /* MapView.swift */,
 				64A864602C67670F00EFB0CD /* ContentView.swift */,
@@ -266,8 +285,6 @@
 		64A8645D2C67670F00EFB0CD /* swift-ui */ = {
 			isa = PBXGroup;
 			children = (
-				649835562C78B65300EB7893 /* Categories */,
-				642F8D572C774D7F0085C331 /* Badges */,
 				6465DF672C688B8B00AE613E /* Resources */,
 				6465DF812C68A6AF00AE613E /* Component */,
 				6465DF7A2C68916600AE613E /* View */,
@@ -370,7 +387,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					64A8645A2C67670F00EFB0CD = {
 						CreatedOnToolsVersion = 15.2;
@@ -451,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64067BA92C81D90200751314 /* CategoryRow.swift in Sources */,
+				64067BAE2C847C7A00751314 /* Profile.swift in Sources */,
 				64A864612C67670F00EFB0CD /* ContentView.swift in Sources */,
 				642F8D562C774C3E0085C331 /* Badge.swift in Sources */,
 				64A8648C2C6779BB00EFB0CD /* CircleImage.swift in Sources */,
@@ -461,7 +479,9 @@
 				6498355F2C78B8F400EB7893 /* HikeDetail.swift in Sources */,
 				64067BAB2C81DD7800751314 /* CategoryItem.swift in Sources */,
 				642F8D542C774B8E0085C331 /* RotatedBadgeSymbol.swift in Sources */,
+				64067BB22C847E8900751314 /* ProfileSummary.swift in Sources */,
 				642F8D522C774A3C0085C331 /* BadgeSymbol.swift in Sources */,
+				64067BB02C847D5800751314 /* ProfileHost.swift in Sources */,
 				64A8645F2C67670F00EFB0CD /* swift_uiApp.swift in Sources */,
 				6465DF762C688C1300AE613E /* Landmark.swift in Sources */,
 				6453697F2C76058D000EF76E /* BadgeBackground.swift in Sources */,
@@ -543,6 +563,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -604,6 +625,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -631,6 +653,7 @@
 				CODE_SIGN_ENTITLEMENTS = "swift-ui/swift_ui.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"swift-ui/Preview Content\"";
 				DEVELOPMENT_TEAM = 84GVAX3L73;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -669,6 +692,7 @@
 				CODE_SIGN_ENTITLEMENTS = "swift-ui/swift_ui.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"swift-ui/Preview Content\"";
 				DEVELOPMENT_TEAM = 84GVAX3L73;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -706,6 +730,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 84GVAX3L73;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -729,6 +754,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 84GVAX3L73;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -751,6 +777,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 84GVAX3L73;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -773,6 +800,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 84GVAX3L73;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
